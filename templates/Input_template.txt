@@ -1,0 +1,12 @@
+CONFIG
+{
+WORK_DIR="{OUTPUT_DIR}"
+BPIPE_EXECUTABLE="{DIRNAME}/bin/bpipe-0.9.8.4.1/bin/bpipe"
+SLEEP_TIME="10"
+
+#Below given are static parts
+BPIPE_SCRIPT="{DIRNAME}/config/Flow.groovy"
+VALIDATOR_SCRIPT="{DIRNAME}/bin/scripts/io_validator.pl"
+DEPENDENCIES_SCRIPT="{DIRNAME}/config/base_dependencies.groovy"
+}
+__CONFIGEND__

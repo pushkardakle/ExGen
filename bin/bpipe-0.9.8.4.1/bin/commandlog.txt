@@ -1,0 +1,10 @@
+
+####################################################################################################
+# Starting pipeline at Wed Nov 20 16:29:17 IST 2013
+# Input files:  null
+# Output Log:  .bpipe/logs/12587.log
+# Stage hello
+echo Hello
+# Stage world
+echo World
+
