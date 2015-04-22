@@ -1,3 +1,5 @@
+*This is an v0.1-alpha release. Not ready for production*
+
 **ExGen** is a [bpipe](https://github.com/ssadedin/bpipe) and Perl based whole Exome and Genome analysis pipeline. The pipeline was designed primarily to take advantage of a multi-node HPC environement though it also supports single node environments. The pipeline can be used for 
 
 **Major features of the pipeline are:-**
@@ -22,5 +24,6 @@
 - Reduction of consumed disk space with compression of BAM files using CRAM of alternate toolkit
 -  Relevant plots for the collectied statistics
 -  Creation of a dockerised container with all the dependencies
+-  Add test cases for multi node/single node use case scenarios
 
 
